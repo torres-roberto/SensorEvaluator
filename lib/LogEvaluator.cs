@@ -8,6 +8,8 @@ namespace SensorEvaluator
     public class LogEvaluator
     {
         private const int BEGINNING_OF_LOGS = 1;
+        private const int SENSOR_INDEX = 0;
+        private const int READING_INDEX = 1;
 
         public static string EvaluateLogFile(string logContentStr)
         {
@@ -55,8 +57,8 @@ namespace SensorEvaluator
 
         private static (string, string) GetNewSensorOrReading(string log)
         {
-            var sensor = log?.Split(" ")?[0];
-            var reading = log?.Split(" ")?[1];
+            var sensor = log?.Split(" ")?[SENSOR_INDEX];
+            var reading = log?.Split(" ")?[READING_INDEX];
 
             if (DateTime.TryParse(sensor, out _))
             {
