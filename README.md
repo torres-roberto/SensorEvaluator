@@ -77,3 +77,4 @@ The recommendation is that consuming applications/libraries use .NET Core 3.1.
 2. Add the new device `sensorType` and the implementation from `1.` to `lib/SensorReaders/SensorReaderBuilder.cs`.
 3. Add Property and Property definition (found within `GetRoomReference` method) to `lib/RoomReference.cs`.
 4. Add unit tests to `tests/SensorReaderTests` dir.
+5. Add test cases to `tests/AllSensorReadersTests.cs`. This serves as an e2e test.
