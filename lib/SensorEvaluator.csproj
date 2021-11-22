@@ -6,8 +6,10 @@
 
   <ItemGroup>
     <None Remove="Sensors\" />
+    <None Remove="resources\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="SensorReaders\" />
+    <Folder Include="resources\" />
   </ItemGroup>
 </Project>
