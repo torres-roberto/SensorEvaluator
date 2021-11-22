@@ -72,9 +72,10 @@ namespace SensorEvaluator
 
             foreach (var (sensor, readings) in sensorReadings)
             {
-                result.AppendLine(SensorReaderBuilder.For(sensor).Evaluate(readings, reference));
+                var classification = SensorReaderBuilder.For(sensor).Evaluate(readings, reference);
+                result.AppendLine($"{classification},");
             }
-
+            
             return $"{{ {result} }}";
         }
     }
