@@ -4,4 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Sensors\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="SensorReaders\" />
+  </ItemGroup>
 </Project>
