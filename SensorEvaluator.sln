@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorEvaluator", "lib\SensorEvaluator.csproj", "{8B3B82E4-75E6-4C62-ABEC-5989DFEE3AFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorEvaluatorTests", "tests\SensorEvaluatorTests.csproj", "{AE42DC06-7F41-4B5D-B258-333FFE06F3BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B3B82E4-75E6-4C62-ABEC-5989DFEE3AFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B3B82E4-75E6-4C62-ABEC-5989DFEE3AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B3B82E4-75E6-4C62-ABEC-5989DFEE3AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B3B82E4-75E6-4C62-ABEC-5989DFEE3AFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE42DC06-7F41-4B5D-B258-333FFE06F3BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE42DC06-7F41-4B5D-B258-333FFE06F3BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE42DC06-7F41-4B5D-B258-333FFE06F3BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE42DC06-7F41-4B5D-B258-333FFE06F3BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF6F9A2C-F738-477F-89BE-9BCC5776D71F}
+	EndGlobalSection
+EndGlobal
